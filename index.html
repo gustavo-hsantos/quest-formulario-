@@ -1,0 +1,69 @@
+<DOCTYPE html>
+  <html lang="pt-br">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Formulário - Quest</title>
+      <link rel="stylesheet" href="./src/reset.css" />
+      <link rel="stylesheet" href="./src/style.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet"
+      />
+    </head>
+    <body>
+      <section class="conteudo">
+        <div class="infos">
+          <h1>
+            FICOU COM DÚVIDA? <br />
+            NOS MANDE UMA MENSAGEM!
+          </h1>
+          <p>
+            caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem
+            e entraremos em contato em menos de 24h.
+          </p>
+        </div>
+
+      <form id="form" class="form">
+        <div class="form-content">
+          <input
+            id="name"
+            class="input"
+            type="text"
+            placeholder="Nome completo *"
+          />
+          <a class="aviso">*campo obrigatório</a>
+        </div>
+
+        <div class="form-content">
+          <input id="email" class="input" type="email" placeholder="Email *" />
+          <a class="aviso">*campo obrigatório</a>
+        </div>
+
+        <div class="form-content">
+          <input id="tel" class="input" type="text" placeholder="Telefone *" />
+          <a class="aviso">*campo obrigatório</a>
+        </div>
+
+        <div class="form-content">
+          <input
+            id="mensagem"
+            class="input text-area"
+            type="text"
+            placeholder="Mensagem *"
+          />
+          <a class="aviso">*campo obrigatório</a>
+        </div>
+
+        <p class="aviso-fixo">* Campos obrigatórios</p>
+
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+      </section>
+
+      <script src="./index.js"></script>
+    </body>
+  </html>
+</DOCTYPE>
